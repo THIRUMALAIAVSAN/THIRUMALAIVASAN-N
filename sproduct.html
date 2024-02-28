@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="single-pro-details" style="text-align: center;">
+            <h1>Home/T-shirt</h1>
+            <h3>Men's Fashion T-Shirt</h3>
+            <h3>$139.00</h3>
+            <select>
+                <option>Select Size</option>
+                <option>XL</option>
+                <option>XXL</option>
+                <option>XXXL</option>
+                <option>Small</option>
+                <option>Large</option>
+            </select>
+            <input type="number" value="1">
+            <button class="normal">Add T Cart</button>
+            <h4>Product Details</h4>
+            <span>A T-shirt (also spelled tee shirt, or tee for short) is a style of fabric shirt named after the T shape of its body and sleeves.<br>Traditionally, it has short sleeves and a round neckline, known as a crew neck, which lacks a collar.This combo is a true<br> classic that will never steer you wrong.A crisp white shirt paired with navy pants connotes timeless sophistication.It's an <br>effortlessly smart look for a job interview, work presentation, formal events, and any occasion where you want to exude <br>confidence and class.</span>
+        </div>
+    </section>
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="img4/men.jpg" alt="" width="28%" id="MainImg">
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="img4/men1.jpg"alt="" width="7%" class="small-img">
+                    <img src="img4/men2.png"alt="" width="10%" class="small-img">
+                    <img src="img4/men3.jpg"alt="" width="10%" class="small-img">
+                </div>
+            </div>
+        </div>
+    </section><hr>
+    <center><h1 style="color: red;">FEATURE PRODUCT</h1></center>
+            <div class="row">
+                <div class="column">
+                    <img src="img4/pant.jpg" width="30%">
+                    <img src="img4/pant1.jpg" width="30%">
+                    <img src="img4/pant2.jpg" width="30%">
+                </div>
+            </div>
+    </div>
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4 style="color: white;">Sign Up For NewsLetters</h4>
+            <p style="color: white;">Get E-mail updates about our latest shop and <span>special offers.</span></p>
+        </div>
+
+        <div class="form">
+            <input type="text" placeholder="Your email address"><br>
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+    </section>
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/ecommerce.png" alt="">
+            <h4>Contact</h4>
+            <p><bold>Address:</bold> 562 Wellington Road, Street 32, San Francisco</p>
+            <p><bold>Phone:</bold>+01 2222 365/(+91) 01 2345 6789</p>
+            <p><bold>Hours:</bold>10:00-18:00,Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>                    
+                </div>
+            </div>
+            <div>
+                <p>@ 2024, Tech2 etc -HTML CSS Ecommerce Template</p>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img2/app.png" style="width: 100px;"><br>
+                <img src="img2/play.png" style="width: 100px;">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img2/visa.png" style="width: 200px;">
+            </div>
+    </footer>
+    <script>
+        var MainImg=document.getElementById("MainImg");
+        var smallImg=document.getElementsByClassName("small-img");
+        smallimg[0].onclick=function(){
+            MainImg.src=smallimg[0].src;
+        }
+        smallimg[1].onclick=function(){
+            MainImg.src=smallimg[1].src;
+        }
+        smallimg[2].onclick=function(){
+            MainImg.src=smallimg[2].src;
+        }
+    </script> 
+</body>
+</html>
